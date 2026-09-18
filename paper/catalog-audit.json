@@ -1,0 +1,159 @@
+{
+  "revision": "89e0923fb1d5dcac5e676d28f207602f011ee47d",
+  "catalog_entries": 69,
+  "rankable_entries": 66,
+  "frameworks": [
+    "medigan",
+    "SDV",
+    "synthcity"
+  ],
+  "datasets": 6,
+  "data_types": {
+    "coded_event_sequences": 8,
+    "genomic": 5,
+    "graph": 4,
+    "images": 4,
+    "single_cell_omics": 5,
+    "survival": 1,
+    "tabular_cross_sectional": 30,
+    "tabular_longitudinal": 12,
+    "text": 5,
+    "time_series": 9
+  },
+  "families": {
+    "agent_simulation": 3,
+    "copula": 2,
+    "diffusion": 12,
+    "gan": 18,
+    "llm": 7,
+    "marginal_based": 6,
+    "probabilistic_graphical": 7,
+    "resampling": 3,
+    "rule_based": 2,
+    "sequential_tree": 2,
+    "vae": 4
+  },
+  "field_non_null_nonempty_counts": {
+    "id": 66,
+    "name": 66,
+    "aliases": 30,
+    "family": 66,
+    "domains": 66,
+    "data_types": 66,
+    "variable_types": 64,
+    "formal_dp": 66,
+    "dp_mechanism": 9,
+    "compute": 66,
+    "license": 66,
+    "purposes": 66,
+    "preserves": 65,
+    "scale": 66,
+    "expertise": 66,
+    "maturity": 66,
+    "governance": 66,
+    "caveats": 66,
+    "evaluation": 66,
+    "links": 66,
+    "related_datasets": 2,
+    "output_preview": 66,
+    "language": 62,
+    "last_updated": 58,
+    "is_framework": 66,
+    "requires_no_source_data": 66
+  },
+  "field_count_definition": "False is a recorded Boolean value. Nested objects may contain empty fields; these counts are not evidence-quality measures.",
+  "details": {
+    "paper_links": 62,
+    "code_links": 61,
+    "documentation_links": 12,
+    "numeric_scale_bounds": 3,
+    "governance_or_deployment": 31,
+    "formal_dp": 9,
+    "no_source_records": 7
+  },
+  "scenarios": [
+    {
+      "name": "CPU-based pipeline testing",
+      "intake": {
+        "domain": "biomedical",
+        "data_type": "tabular_cross_sectional",
+        "purpose": "pipeline_testing",
+        "privacy": "not_required",
+        "compute": "cpu_fine",
+        "expertise": "low"
+      },
+      "shortlist": [
+        {
+          "id": "synthpop",
+          "name": "synthpop",
+          "fit": 1.0
+        },
+        {
+          "id": "metasyn",
+          "name": "metasyn",
+          "fit": 1.0
+        },
+        {
+          "id": "rule_based_simulation",
+          "name": "Rule-based expert simulation",
+          "fit": 1.0
+        }
+      ],
+      "excluded": 43
+    },
+    {
+      "name": "Longitudinal EHR augmentation",
+      "intake": {
+        "domain": "biomedical",
+        "data_type": "coded_event_sequences",
+        "purpose": "ml_augmentation",
+        "privacy": "not_required"
+      },
+      "shortlist": [
+        {
+          "id": "cehr_gpt",
+          "name": "CEHR-GPT",
+          "fit": 0.8666666666666667
+        },
+        {
+          "id": "ehrdiff",
+          "name": "EHRDiff",
+          "fit": 0.7666666666666667
+        },
+        {
+          "id": "eva_ehr",
+          "name": "EVA",
+          "fit": 0.7666666666666667
+        }
+      ],
+      "excluded": 58
+    },
+    {
+      "name": "Genomic benchmarking",
+      "intake": {
+        "domain": "biomedical",
+        "data_type": "genomic",
+        "purpose": "benchmarking",
+        "privacy": "not_required"
+      },
+      "shortlist": [
+        {
+          "id": "msprime",
+          "name": "msprime",
+          "fit": 1.0
+        },
+        {
+          "id": "slim",
+          "name": "SLiM",
+          "fit": 1.0
+        },
+        {
+          "id": "hapnest",
+          "name": "HAPNEST",
+          "fit": 0.7666666666666667
+        }
+      ],
+      "excluded": 61
+    }
+  ]
+}
