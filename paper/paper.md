@@ -7,19 +7,14 @@ tags:
   - Method discovery
   - Decision support
 authors:
-  - name: First Author
+  - name: Chang Sun
+    orcid: 0000-0001-8325-8848
     affiliation: 1
-    role: Writing – original draft
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-    role: Conceptualization, Writing – review & editing
+    email: chang.sun@maastrichtuniversity.nl
+    role: Conceptualization, Software, Writing – original draft, Writing – review & editing
 affiliations:
-  - name: First Affiliation
+  - name: Institute of Data Science, Department of Advanced Computing Sciences, Maastricht University, Maastricht, The Netherlands
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
-    index: 2
 date: 18 September 2026
 cito-bibliography: paper.bib
 event: BH26JP
@@ -31,10 +26,10 @@ group: synthetic data generator finder
 git_url: https://github.com/biohackathon-japan/BH26-synthetic-data-generator-finder
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Chang Sun
 ---
 
-<!-- Working draft: author metadata and acknowledgements require confirmation.
+<!-- Working draft: additional contributors and acknowledgements remain to be confirmed.
      Catalog counts and examples refer to the pinned source revision below.
      No systematic literature search or independent expert evaluation is claimed. -->
 

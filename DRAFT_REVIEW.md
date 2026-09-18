@@ -16,7 +16,7 @@ The previous draft provided a useful outline but did not adequately describe the
 
 ## Remaining substantive limitations
 
-- Author order, affiliations, ORCIDs, roles, funding, and acknowledgements are unconfirmed. YAML still contains template identities.
+- Chang Sun’s name, affiliation, institutional email, and ORCID have been added using existing manuscripts and the Maastricht University profile (https://cris.maastrichtuniversity.nl/en/persons/chang-sun/). Roles reflect the development and writing described in this session. Additional contributors, final author order, funding, and acknowledgements remain to be confirmed.
 - The team has not supplied a search strategy, inclusion criteria, extraction protocol, reviewer count, or annotation disagreement procedure. None has been invented.
 - Catalog annotations are not independently source-audited. Having links, evidence text, or a valid year is not proof of correctness.
 - No user study, independent expert benchmark, sensitivity analysis, generator-quality experiment, or deployment test is reported.
